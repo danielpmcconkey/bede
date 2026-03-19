@@ -33,7 +33,7 @@ Edit `~/.openclaw/openclaw.json`:
 {
   "id": "bede",
   "name": "bede",
-  "workspace": "/media/dan/fdrive/bede/workspace",
+  "workspace": "/media/dan/fdrive/codeprojects/bede/workspace",
   "agentDir": "/home/dan/.openclaw/agents/bede/agent",
   "model": "anthropic/claude-opus-4-6",
   "identity": {
@@ -77,12 +77,12 @@ Add Bede's scripts to exec-approvals.json (wherever that lives — check Zazu's 
 {
   "agent": "bede",
   "command": "discover.py",
-  "path": "/media/dan/fdrive/bede/workspace/skills/summarize-transcripts/scripts/discover.py"
+  "path": "/media/dan/fdrive/codeprojects/bede/workspace/skills/summarize-transcripts/scripts/discover.py"
 },
 {
   "agent": "bede",
   "command": "update_registry.py",
-  "path": "/media/dan/fdrive/bede/workspace/skills/summarize-transcripts/scripts/update_registry.py"
+  "path": "/media/dan/fdrive/codeprojects/bede/workspace/skills/summarize-transcripts/scripts/update_registry.py"
 }
 ```
 
