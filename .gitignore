@@ -1,0 +1,7 @@
+# Secrets
+.pgpass
+
+# Python
+.venv/
+__pycache__/
+*.pyc
